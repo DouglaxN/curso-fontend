@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css">
     <title>Exercício 1 - Douglas Nunes
     </title>
 </head>
 <body>
     <header>
-        <div>
-            <img width="200" src="img/ufrn.png" alt="">
+        <div class="div_cabecalho">
+            <img width="200" class="logo_ufrn" src="img/ufrn.png" alt="">
             <h1>UFRN - Ciências da Computação</h1>
+        </div>
 
+        <div class="itens">
             <ul>
                 <li><a href="https://www.ufrn.br/">UFRN</a></li>
                 <li><a href="https://dimap.ufrn.br/">DIMAP</a></li>
@@ -25,7 +28,7 @@
     <main>
         <section>
         <div>
-            <h2>Apresentação e História</h2>
+            <h2 class="title">Apresentação e História</h2>
 
             <p>O curso de Bacharelado em Ciências da Computação tem por objetivo a formação teórica e prática em computação ou informática. A formação do aluno abrange a compreensão do campo científico da computação que permitirá a sua aplicação na solução de problemas da sociedade e no desenvolvimento de conhecimento e tecnologias 
                 que permitam a evolução da computação.
@@ -38,7 +41,7 @@
 
         <section>
         <div>
-            <img src="img/dimap.jpg" alt="">
+            <img  class="img_dimap" src="img/dimap.jpg" alt="">
         </div>
        
         <div>
@@ -54,7 +57,7 @@
     </section>
 <hr>
     <section>
-        <h2>Notas de corte e Calculadora de Pesos</h2>
+        <h2 class="title">Notas de corte e Calculadora de Pesos</h2>
         <p>O BCC teve ingresso direto desde sua criação em 1986 até 2013. A partir de 2013 a forma de ingresso passou a ser via reingresso de 2º ciclo para egressos do BTI. A partir de 2023 o BCC volta a contar com a principal forma de ingresso da UFRN, via SISU, em um movimento similar ao que aconteceu com as Engenharias.
         </p>
 
@@ -103,9 +106,11 @@
                 <input type="number" placeholder="TRI"> <input type="number" placeholder="PESO">
             </p>
 
+            <div class="final_forms">
             <input type="button" value="Calcular">
 
             <p>Resultado:</p>
+        </div>
             </fieldset>
         </form>
     </section>
@@ -113,7 +118,7 @@
 
     <section>
         <div>
-            <h2>Ciência e Mercado de Trabalho</h2>
+            <h2 class="title">Ciência e Mercado de Trabalho</h2>
 
             <p>O profissional em Ciência da Computação pode atuar em empresas de vários segmentos, uma vez que sua atuação, atrelada à tecnologia, torna-se fundamental para estabelecer uma rotina otimizada através da gerência da rede de computadores.  
 
@@ -124,15 +129,14 @@
                 Independente da área que o profissional escolha seguir, o  ideal é continuar buscando o aprofundamento e aperfeiçoamento dos conhecimentos adquiridos ainda na graduação. </p>
         </div>
 
-        <div>
-            <img src="img/pc.jpg" width="400" alt="">
-            <img src="img/job.jpeg" width="470" alt="">
+        <div class="img_mercado">
+            <img src="img/pc.jpg" alt="">
         </div>
     </section>
     </main>
     <hr>
     <footer>
-        <div>
+        <div class="rodape">
             <p>Telefone - (xx) xxxx-xxxx cccc@dimap.ufrn.br</p>
             <p>Natal/RN - Brasil</p>
             <p>&copy 2024, Universidade Federal do Rio Grande do Norte.</p>

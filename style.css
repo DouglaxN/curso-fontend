@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    font-family: sans-serif;
+    background-color: #63626B;
+    color: #ffff;
+    padding: 0 5rem 0 5rem;
+}
+header{
+    margin: 0 6rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    color: white;
+}
+.div_cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+}
+li{
+   
+    list-style-type: none
+}
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+a:hover{
+    color: blue
+}
+img{
+    border-radius: 1rem;
+}
+.img_dimap{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+p{
+    text-align: justify;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+fieldset{
+    border-radius: 1rem;
+}
+.final_forms{
+    display: flex;
+    flex-direction: row;
+}
+.img_mercado img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    width: 60%;
+
+}
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
